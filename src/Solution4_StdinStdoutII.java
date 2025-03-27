@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class Solution3_StdinStdout {
+public class Solution4_StdinStdoutII {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
         int i = scan.nextInt();
         double d = scan.nextDouble();
         scan.nextLine();

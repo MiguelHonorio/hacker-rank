@@ -1,2 +1,87 @@
-# Project exclude paths
-/out/
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IDE / Editor specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Mac-specific files
+.DS_Store
+
+# Build directories
+/target/
+/build/
+
+# External libraries
+/external-libraries/
+/lib/
+
+# Maven / Gradle build directories
+/.mvn/
+/.gradle/
+
+# Dependency directories
+/node_modules/
+jspm_packages/
+
+# Temporary files created by the OS
+*.swp
+*~.nib
+
+# Java archives
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+# Java debugging files
+*.hprof
+
+# IntelliJ IDEA specific
+*.iws
+*.ipr
+
+# Gradle wrapper files (optional but can be ignored)
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Files for Gradle build configuration
+gradle-build/
+
+# Custom log files
+*.out
+*.err
+
+# Ignorar arquivos de shell
+*.shell
+
+# Ignorar arquivos de configuração do Java
+/.classpath
+/.project
+
+# Ignorar arquivos de backup
+*.bak
+*.tmp
+
+# Ignorar diretórios específicos de microserviços (dependendo do seu caso de uso)
+# Por exemplo, para serviços que têm suas próprias dependências locais:
+# /service1/target/
+/service2/target/
